@@ -1,1 +1,0 @@
-# idasheets.github.io

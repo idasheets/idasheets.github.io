@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flying Experience</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            background-image: url('DroneExperience.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 20px;
+        }
+
+        .page-wrapper {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .content h1,
+        .content h2,
+        .content p {
+            background-color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: center;
+        }
+
+            .column img {
+                width: 100%;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                object-fit: cover;
+            }
+
+        .middle {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+            .middle h1 {
+                font-size: 2rem;
+                margin: 0;
+            }
+
+            .middle p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+            }
+
+        .portfolio-button {
+            text-decoration: none;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 10px 30px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+            .portfolio-button:hover {
+                color: white;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+
+
+        .back-button {
+            text-decoration: none;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 10px 30px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+            .back-button:hover {
+                color: white;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+
+        .back-wrapper {
+            text-align: center;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="column">
+                <img src="Flying.jpg" alt="Photo 2">
+                <img src="Flying2.jpg" alt="Photo 3">
+            </div>
+
+            <div class="content middle">
+                <h1>Flying Experience</h1>
+                <p>I recieved my Private Pilots License a month into beginning college. I started as a sophmore and continuted all throughout high-school until taking my checkride before college, failing and taking it again two weeks later and passing. I learned so much about aviation that I could talk about it for forever. It originally was my passion but after recieving my license I realized the life of a pilot wasn't one for me. Some of the best things I learned were problem solving, and making smart decisions. It's insane to me how many accidents happen because people don't make smart decision. An example of this in aviation is that we get a NOTAM, Notice to Air Mission, it tells us the weather, important areas to avoid, and anything we might need. Weather is the big one, as the PIC, pilot in command, it's my responsibility to ensure that I can fly safely in the current weather conditions. It can suck when you planned a whole day around flying and then weather grounds you, and some people would be tempted to push their luck and fly. This is what leads to accidents. In addition to learnign safety with your PPL, their's no ciriculum. I don't get grades, I don't have deadlines, it's entirely up to me how long it'll take. Because of that I have to stay focused and committed throughout the entire 2-3 year process, as otherwise it'll end up taking years or never get done.</p>
+
+
+            </div>
+
+            <div class="column">
+                <img src="Flying3.jpg" alt="Photo 6">
+                <img src="Flying4.jpg" alt="Photo 7">
+            </div>
+        </div>
+
+        <div class="back-wrapper">
+            <a href="ExperienceFields.html" class="back-button">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>

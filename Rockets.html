@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Rockets</title>
+    <style>
+        body {
+            background-image: url('BackgroundDrone.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h2 {
+            background-color: white;
+            border-radius: 5px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        p {
+            background-color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .quad-section {
+            display: grid;
+            grid-template-columns: 1.1fr 2fr 0.9fr;
+            gap: 0px;
+            align-items: start;
+            margin-bottom: 50px;
+        }
+
+        .side-photos {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+            .side-photos img {
+                width: 100%;
+                border-radius: 20px;
+            }
+
+        .quad-text {
+            text-align: center;
+        }
+
+        .quad-bottom {
+            grid-column: 1 / span 3;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+            .quad-bottom img {
+                max-width: 60%;
+                border-radius: 8px;
+            }
+
+        .full-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .back-button {
+            text-decoration: none;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 10px 30px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+            .back-button:hover {
+                color: white;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:center">Building Rockets</h1>
+
+        <div class="quad-section">
+            <div class="side-photos">
+                <img src="Rockets.jpg" alt="Left photo 1">
+                <img src="Rockets2.jpg" alt="Left photo 2">
+            </div>
+
+            <div class="quad-text">
+                <h2>Building the L2 Rocket</h2>
+                <p>
+                    I wanted to explain what I mean when I say an L2 rocket. The title is refering to the classification of engine I use. So an L2 motor is between 640-5120 Newtons of force per second. When I build my L2 we use a dual deploy system as well as a suspended electronic bay. That means that I created a system where at appogee the drogue, which is a smaller parachute, parachute is released and then around 300 feet above the ground the main parachute is released. This allows the rocket to get close to the ground and for easier recovery. I use RRC3+(bottom right photo) to set off the charges that release the parachutes. This are programmed by me before take off. The rocket itself is created in a simulation, bottom photo, and after the sim is correct each piece is CAD, top right and bottom right, then lazer cut or 3d printed. This rocket should go around 4-5 thousand feet in the air.
+                </p>
+            </div>
+
+            <div class="side-photos">
+                <img src="Rockets5.jpg" alt="Right photo 1">
+                <img src="Rockets4.jpg" alt="Right photo 2">
+            </div>
+
+            <div class="quad-bottom">
+                <img src="Rockets3.jpg" alt="Bottom photo">
+            </div>
+        </div>
+
+        <div class="quad-section">
+            <div class="side-photos">
+                <img src="Rocket.jpg" alt="Left photo 1">
+                <img src="Rocket2.jpg" alt="Left photo 2">
+            </div>
+
+            <div class="quad-text">
+                <h2>Building the L1 Rocket</h2>
+                <p>
+                   The L1 rocket uses motors between 160 to 320. It is much less force than the L2 motor. As such the rocket is much easier to build. The simulation, bottom photo, is a lot less simple as their's much less going on. All that is need is the vehicle of the rocket, a parachute, and the motor. However, it teaches you the ground work for how to build, structure, and design a rocket. Without the L1 rocket you wouldn't really have the skills to build an L2, plus you're legally not allowed as in order to build an L2 you have to have your L1 certification. The L1 is a much much simpler rocket but still a valuable thing to create. Plus it's really fun.
+                </p>
+            </div>
+
+            <div class="side-photos">
+                <img src="Rockets3 (2).jpg" alt="Right photo 1">
+                <img src="Rocket4.jpg" alt="Right photo 2">
+            </div>
+
+            <div class="quad-bottom">
+                <img src="L1.jpg" alt="Bottom photo">
+            </div>
+        </div>
+        <h1 style="text-align: center; margin: 40px 0;">
+            <a href="Engineering Projects-Home.html" class="back-button">Go Back</a>
+        </h1>
+    </div>
+</body>
+</html>

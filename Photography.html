@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Showcase</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            background-image: url('Photography.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 20px;
+        }
+
+        .page-wrapper {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .content h1,
+        .content h2,
+        .content p {
+            background-color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: center;
+        }
+
+            .column img {
+                width: 100%;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                object-fit: cover;
+            }
+
+        .middle {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+            .middle h1 {
+                font-size: 2rem;
+                margin: 0;
+            }
+
+            .middle p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+            }
+
+        .portfolio-button {
+            text-decoration: none;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 20px 50px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+            .portfolio-button:hover {
+                color: white;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+
+
+        .back-button {
+            text-decoration: none;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 10px 30px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+            .back-button:hover {
+                color: white;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+
+        .back-wrapper {
+            text-align: center;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="column">
+                <img src="LouCity.jpg" alt="Photo 1">
+                <img src="Peru.jpg" alt="Photo 2">
+                <img src="Maine.jpg" alt="Photo 3">
+                <img src="LouCity2 (2).jpg" alt="Photo 4">
+            </div>
+
+            <div class="content middle">
+                <h1>Photography</h1>
+                <p>This was one of my favorite pages to make as I've become super passionate about photography in the last year, in addition every single photo on this website was taken by me. Now don't be concerned dear reader I love engineering and it is always my number one passion. But photography has become extremely fun. I currently shoot on a Cannon EOS 1D Mark 3, show top right. I use a 70-200, and a 16-35 mm lens, top left, to shoot all sorts of things. Every picture in this website was taken by me, some are good, some are bad, but they're all mine. In terms of experience, I've been shooting all over the country and the world. I also am a photographer for LouCity FC. I shoot at every LouCity game I can, and absolutely love it. I also shoot for TheDroneRanger from time to time, that work is explained in the Drone Work section. I wanted to learn something that I could build upon and somethign that was an actual skill. I had already done engineering stuff and I wanted something fresh and new. not that engineering isn't but I wanted something different from anything I've ever done before. My cousin had been pushing me to get into photography and after my first internship I decided to puchase gear. I spent around two grand, but I've never been happier with my decisions. I've also added a link to my portfolio page below if you'd like to see my experience in photography.</p>
+                
+
+            </div>
+
+            <div class="column">
+                <img src="LouCity3.jpg" alt="Photo 5">
+                <img src="Portrait.jpg" alt="Photo 6">
+                <img src="LouCity2.jpg" alt="Photo 7">
+                <img src="MtIda.jpg" alt="Photo 8">
+            </div>
+        </div>
+        <div class="back-wrapper">
+            <a href="https://www.instagram.com/idsheetsphoto/" target="_blank" class="portfolio-button">
+                My Instagram Portfolio
+            </a>
+        </div>
+
+        <div class="back-wrapper">
+            <a href="ExperienceFields.html" class="back-button">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Experience</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            background-image: url('DroneExperience.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 20px;
+        }
+
+        .page-wrapper {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+
+        .content h1,
+        .content h2,
+        .content p {
+            background-color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: center;
+        }
+
+            .column img,
+            .column video {
+                width: 100%;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                object-fit: cover;
+            }
+
+        .middle {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+            .middle h1 {
+                font-size: 2rem;
+                margin: 0;
+            }
+
+            .middle p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+            }
+
+        .portfolio-button {
+            text-decoration: none;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 10px 30px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+            .portfolio-button:hover {
+                color: white;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+
+
+        .back-button {
+            text-decoration: none;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 10px 30px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+            .back-button:hover {
+                color: white;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+
+        .back-wrapper {
+            text-align: center;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="column">
+                <img src="Drone.jpg" alt="Photo 1">
+                <video controls>
+                    <source src="DroneVideo.mp4" type="video/mp4">
+                </video>
+
+                <img src="Drone (2).jpg" alt="Photo 3">
+            </div>
+
+            <div class="content middle">
+                <h1>Drone Experience</h1>
+                <p>I recieved my Part 107 license, or drone license, in the summer or 2024. I had someone close to me reccomend the license as if you have your Private Pilots License it is extremely easy to acquire a drone license. I use that drone license for two different jobs, I work for LouCity as surveilence after games, and I assist TheDroneRanger with work as well. The equipment I use is a DJI Mavic 2, and the DJI Pro Mavic 2. The LouCity work is monitoring and recording so that if something were to happen we have the footage. In addition I'm responsible for editing and delivering the footage in a timely manner. The work I do with TheDroneRanger ranges very far. Recently we did REPO work. We were tasked with going to around 100 homes and taking pictures of the lots to record if the specific car was there, we were not responsible for finding the car if it was not in the lot, we simply were delivering data. The drone work I do has helped me create experience in a range of professional fields while also being given room to fail and learn.</p>
+
+            </div>
+
+            <div class="column">
+                <img src="DroneExperience (2).jpg" alt="Photo 5">
+                <img src="DroneExperience11.jpg" alt="Photo 6">
+                <img src="Drone10.jpg" alt="Photo 7">
+            </div>
+        </div>
+
+        <div class="back-wrapper">
+            <a href="ExperienceFields.html" class="back-button">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>
